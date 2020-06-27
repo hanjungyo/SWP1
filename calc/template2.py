@@ -3,10 +3,10 @@ html = """
 	<body>
 		<form method="get" action="">
 			<p>
-				a: <input type="number" name="a">
+				First Number: <input type="number" name="a">
 			</p>
 			<p>
-				b: <input type="number" name="b">
+				Second Number: <input type="number" name="b">
 			</p>
 			<p>
 				<input type="submit">
@@ -14,8 +14,8 @@ html = """
 		</form>
 		
 		<p>
-			a + b : %(x)s<br>
-			a x b : %(y)s<br>
+			sum : %(x)s<br>
+			multiplication : %(y)s<br>
 		</p>
 	</body>
 </html>
