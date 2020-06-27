@@ -7,12 +7,12 @@ def application(environ, start_response):
 	a = d.get('a', [''])[0]
 	b = d.get('b', [''])[0]
 
-	if '' not in [a,b]:
+	try :
 		a, b = int(a), int(b)
 		x = a + b
  		y = a * b
  	
-	else:
+	except ValueError :	
 		x = "" 
 		y = "" 
 
