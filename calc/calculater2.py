@@ -13,8 +13,8 @@ def application(environ, start_response):
  		y = a * b
  	
 	else:
-		x = "Please enter both values." 
-		y = "Please enter both values." 
+		x = "" 
+		y = "" 
 
 
 
